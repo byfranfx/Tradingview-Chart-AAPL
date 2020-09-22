@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "TradingView Live Charts",
+  "version": "1.0",
+  "description": "View stock and cryptocurrency charts live without having to switch to a new tab",
+  "homepage_url": "https://gitlab.com/mit-open-source-projects/firefox-extensions/tradingview-charts",
+  "icons": {
+    "256": "icons/tradingview-icon.ico"
+  },
+  "browser_action": {
+    "default_popup": "/popup/popup.html",
+    "default_icon": {
+      "256": "icons/tradingview-icon.ico"
+    }
+  }
+}
