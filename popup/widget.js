@@ -3,7 +3,24 @@ new TradingView.widget(
     {
         "width": 780,
         "height": 570,
-        "symbol": "NASDAQ:AAPL",
+        "symbols": [
+    [
+      "Apple",
+      "AAPL"
+    ],
+    [
+      "Google",
+      "GOOGL"
+    ],
+    [
+      "Microsoft",
+      "MSFT"
+    ],
+    [
+      "BTC",
+      "BINANCE:BTCUSDTPERP|1D"
+    ]
+  ],
         "interval": "D",
         "timezone": "Etc/UTC",
         "theme": "Light",
